@@ -1,0 +1,64 @@
+/* Dark mode */
+.dark-mode {
+  background: #222;
+  color: #f4f4f9;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background: #111;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ff9800;
+}
+
+/* Scroll to top button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px 15px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
